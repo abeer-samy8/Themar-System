@@ -92,7 +92,7 @@
 
         <form action="" method="POST" novalidate id="register_form"
               class="hold-form new-register-facility-form d-flex flex-column align-items-center justify-content-center inputs-50">
-            <div class="form-head" >معلومات الشراء</div>
+            <div class="form-head">معلومات الشراء</div>
             <div class="form-group">
                 <label class="mr-1" for="id">نوع المشتريات </label>
                 <input title="" type="text" class="form-control" name="purch-type" id="purch-type"
@@ -121,7 +121,7 @@
                        placeholder=" مثال: 350,000 ">
             </div>
 
-            <div class="form-group">
+            <div class="form-group pb-3">
                 <label class="mr-1" for="id">فترة السداد بالأشهر</label>
                 <select class="form-control m-input m-input--solid" id="exampleSelect1">
                     <option class="custom-select" value="" disabled selected hidden style="color: white;">اختر فترة
@@ -137,7 +137,7 @@
 
             <div class="box">
                 <p>حاسبة القسط الشهري التقريبية</p>
-                <div class="d-flex row2" >
+                <div class="d-flex row2">
                     <span style="padding-left: 36px">مبلغ المشتريات</span>
                     <span style="padding-left: 40px">المرابحة</span>
                     <span>المبلغ الكلي</span>
@@ -152,7 +152,7 @@
                 </div>
 
                 <div class="d-flex row4">
-                    <span style="padding-left: 30px" >القسط الشهري</span>
+                    <span style="padding-left: 30px">القسط الشهري</span>
                     <label class="condtions">تطبيق الشروط والأحكام</label>
                 </div>
 
@@ -160,16 +160,73 @@
                     <label>0.00 <span class="unit">ر.س  </span></label>
                 </div>
                 <div class="d-flex row4">
-                    <span style="padding-left: 30px" >الرسوم الإدارية</span>
+                    <span style="padding-left: 30px">الرسوم الإدارية</span>
                     <label class="condtions">تطبيق الشروط والأحكام</label>
                 </div>
                 <div class="row3">
                     <label>0.00 <span class="unit">ر.س  </span></label>
                 </div>
+            </div>
+
+            <p class="form-head">معلومات المورد</p>
+
+            <div class="form-group pb-3">
+                <label class="mr-1" for="id">اختر من الموردين </label>
+                <select class="form-control m-input m-input--solid" id="exampleSelect1">
+                    <option class="custom-select" value="" disabled selected hidden>اختر من الموردين
+                    </option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <div class="d-flex pb-2" style="float: left; gap: 20px">
+                    <img src="{{asset('themar-front/assets/img/edit.svg')}}">
+                    <img src="{{asset('themar-front/assets/img/delete.svg')}}">
+                </div>
+
+                <div style="border-bottom: 1px solid #DADADA;padding-top: 20px">
+                    <h6>
+                        بيانات المورد
+                    </h6>
+                    <div class="d-flex row2">
+                        <span style="padding-left: 36px">اسم المنشأة الموردة </span>
+                        <span style="padding-left: 40px">اسم المسؤول</span>
+                        <span> القطاع</span>
+                    </div>
+                    <div class="d-flex ro pb-4">
+                        <span style="padding-left: 90px">خديجة محمد</span>
+                        <span style="padding-left: 40px">خديجة محمد</span>
+                        <span> اسم القطاع</span>
+                    </div>
+                </div>
+                <div class="pt-3" style="border-bottom: 1px solid #DADADA">
+                    <h6>بيانات التواصل</h6>
+
+                    <div class="d-flex contact pb-4" >
+                        <div class="pt-1" style="padding-left: 25px">
+                            <img src="{{asset('themar-front/assets/img/phone.svg')}}">
+                            <span class="contact-span">+966 7655 6666</span>
+                        </div>
+                        <div class="pt-1 ">
+                            <img src="{{asset('themar-front/assets/img/email.svg')}}">
+                            <span class="contact-span" style="">khadija-ahmed@gmail.com</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <h6 class="pt-2"> المرفقات</h6>
 
 
 
             </div>
+
 
             <div class="button-container pt-5">
                 <button class="next-btn"> التالي ></button>
