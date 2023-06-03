@@ -85,7 +85,7 @@
         <!--===============start form================-->
         <div class="col-xl-12 col-lg-12 col-md-12 mx-auto">
 
-            <form action="" method="POST" novalidate id="register_form"
+            <form action="" method="" novalidate id="register_form"
                   class="hold-form new-register-facility-form d-flex flex-column align-items-center justify-content-center inputs-50">
 
                 <div class="form-group">
@@ -106,7 +106,8 @@
 
                     <div class="d-flex">
                         <label class="mr-1" for="id">الأصول الحالية</label>
-                        <img class="pb-3"  style="padding-right: 10px" src="{{asset('themar-front/assets/img/vector.svg')}}">
+                        <img class="pb-3" style="padding-right: 10px"
+                             src="{{asset('themar-front/assets/img/vector.svg')}}">
                     </div>
 
                     <input title="" type="text" class="form-control" name="current-ass" id="current-ass"
@@ -117,8 +118,10 @@
                 <div class="form-group">
                     <div class="d-flex">
                         <label class="mr-1" for="id">المطالبات الحالية</label>
-                        <img class="pb-3"  style="padding-right: 10px" src="{{asset('themar-front/assets/img/vector.svg')}}">
-                    </div>                    <input title="" type="text" class="form-control" name="current-claim" id="current-claim"
+                        <img class="pb-3" style="padding-right: 10px"
+                             src="{{asset('themar-front/assets/img/vector.svg')}}">
+                    </div>
+                    <input title="" type="text" class="form-control" name="current-claim" id="current-claim"
                            value="" required
                            placeholder="المطالبات الحالية ">
                 </div>

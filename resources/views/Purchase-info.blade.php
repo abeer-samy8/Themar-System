@@ -88,7 +88,7 @@
     <!--===============start form================-->
     <div class="col-xl-12 col-lg-12 col-md-12 mx-auto">
 
-        <form action="" method="POST" novalidate id="register_form"
+        <form action="" method="" novalidate id="register_form"
               class="hold-form new-register-facility-form d-flex flex-column align-items-center justify-content-center inputs-50">
 
             <p class="form-head mb-5"><span>معلومات الشراء</span></p>
@@ -191,7 +191,6 @@
 
             <div class="box">
                 <div class="d-flex pb-2" style="float: left; gap: 20px">
-
                     <a href="#"><img src="{{asset('themar-front/assets/img/edit.svg')}}"></a>
                     <a href="#"><img src="{{asset('themar-front/assets/img/delete.svg')}}"></a>
                 </div>
