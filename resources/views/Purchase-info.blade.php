@@ -2,10 +2,8 @@
 @section("title","معلومات الشراء")
 @section('css')
     <style>
-        /* Style for the options */
-        .custom-select select option {
-            color: #979797; /* Set the desired color */
-        }
+
+
     </style>
 @endsection
 @section('content')
@@ -92,8 +90,11 @@
 
         <form action="" method="POST" novalidate id="register_form"
               class="hold-form new-register-facility-form d-flex flex-column align-items-center justify-content-center inputs-50">
-            <div class="form-head">معلومات الشراء</div>
-            <div class="form-group">
+
+            <p class="form-head mb-5"><span>معلومات الشراء</span></p>
+
+
+            <div class="form-group ">
                 <label class="mr-1" for="id">نوع المشتريات </label>
                 <input title="" type="text" class="form-control" name="purch-type" id="purch-type"
                        value="" required
@@ -105,7 +106,6 @@
                 <label class="mr-1" for="id">عرض السعر </label>
                 <input title="" type="text" class="form-control" name="num-employee" id="num-employee"
                        value="" required placeholder="اختر الملف ">
-
 
                 <div class="pt-3">
                     <img src="{{asset('themar-front/assets/img/vector.svg')}}">
@@ -119,6 +119,11 @@
                 <input title="" type="text" class="form-control" name="current-claim" id="current-claim"
                        value="" required
                        placeholder=" مثال: 350,000 ">
+                <div class="pt-3">
+                    <span class="form-span" style="font-size: 14px">مبلغ المشتريات للمنشأة من 100 ألف ريال سعودي إلى 500 ألف ريال سعودي</span>
+
+                </div>
+
             </div>
 
             <div class="form-group pb-3">
@@ -168,7 +173,8 @@
                 </div>
             </div>
 
-            <p class="form-head">معلومات المورد</p>
+            <p class="form-head mt-5 mb-5"><span>معلومات المورد</span></p>
+
 
             <div class="form-group pb-3">
                 <label class="mr-1" for="id">اختر من الموردين </label>
@@ -185,11 +191,12 @@
 
             <div class="box">
                 <div class="d-flex pb-2" style="float: left; gap: 20px">
-                    <img src="{{asset('themar-front/assets/img/edit.svg')}}">
-                    <img src="{{asset('themar-front/assets/img/delete.svg')}}">
+
+                    <a href="#"><img src="{{asset('themar-front/assets/img/edit.svg')}}"></a>
+                    <a href="#"><img src="{{asset('themar-front/assets/img/delete.svg')}}"></a>
                 </div>
 
-                <div style="border-bottom: 1px solid #DADADA;padding-top: 20px">
+                <div class="border-bottom ">
                     <h6>
                         بيانات المورد
                     </h6>
@@ -204,10 +211,10 @@
                         <span> اسم القطاع</span>
                     </div>
                 </div>
-                <div class="pt-3" style="border-bottom: 1px solid #DADADA">
+                <div class=" border-bottom">
                     <h6>بيانات التواصل</h6>
 
-                    <div class="d-flex contact pb-4" >
+                    <div class="d-flex contact pb-4">
                         <div class="pt-1" style="padding-left: 25px">
                             <img src="{{asset('themar-front/assets/img/phone.svg')}}">
                             <span class="contact-span">+966 7655 6666</span>
@@ -222,7 +229,10 @@
                 </div>
 
                 <h6 class="pt-2"> المرفقات</h6>
-
+                <div class="d-flex pb-5">
+                    <img src="{{asset('themar-front/assets/img/attach.svg')}}">
+                    <label class="condtions" style="padding-right: 10px">شهادة الحساب البنكي للمورد.pdf</label>
+                </div>
 
 
             </div>

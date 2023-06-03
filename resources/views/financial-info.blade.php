@@ -103,15 +103,22 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="mr-1" for="id">الأصول الحالية</label>
+
+                    <div class="d-flex">
+                        <label class="mr-1" for="id">الأصول الحالية</label>
+                        <img class="pb-3"  style="padding-right: 10px" src="{{asset('themar-front/assets/img/vector.svg')}}">
+                    </div>
+
                     <input title="" type="text" class="form-control" name="current-ass" id="current-ass"
                            value="" required
                            placeholder="الأصول الحالية ">
                 </div>
 
                 <div class="form-group">
-                    <label class="mr-1" for="id">المطالبات الحالية</label>
-                    <input title="" type="text" class="form-control" name="current-claim" id="current-claim"
+                    <div class="d-flex">
+                        <label class="mr-1" for="id">المطالبات الحالية</label>
+                        <img class="pb-3"  style="padding-right: 10px" src="{{asset('themar-front/assets/img/vector.svg')}}">
+                    </div>                    <input title="" type="text" class="form-control" name="current-claim" id="current-claim"
                            value="" required
                            placeholder="المطالبات الحالية ">
                 </div>
