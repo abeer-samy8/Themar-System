@@ -104,7 +104,7 @@
             <div class="form-group">
 
                 <label class="mr-1" for="id">عرض السعر </label>
-                <input title="" type="text" class="form-control" name="num-employee" id="num-employee"
+                <input title="" type="file" class="form-control" name="num-employee" id="num-employee"
                        value="" required placeholder="اختر الملف ">
 
                 <div class="pt-3">
@@ -158,7 +158,7 @@
 
                 <div class="d-flex row4">
                     <span style="padding-left: 30px">القسط الشهري</span>
-                    <label class="condtions">تطبيق الشروط والأحكام</label>
+                    <a href="#" class="condtions">تطبيق الشروط والأحكام</a>
                 </div>
 
                 <div class="row3">
@@ -166,7 +166,7 @@
                 </div>
                 <div class="d-flex row4">
                     <span style="padding-left: 30px">الرسوم الإدارية</span>
-                    <label class="condtions">تطبيق الشروط والأحكام</label>
+                    <a href="#" class="condtions">تطبيق الشروط والأحكام</a>
                 </div>
                 <div class="row3">
                     <label>0.00 <span class="unit">ر.س  </span></label>
@@ -230,7 +230,7 @@
                 <h6 class="pt-2"> المرفقات</h6>
                 <div class="d-flex pb-5">
                     <img src="{{asset('themar-front/assets/img/attach.svg')}}">
-                    <label class="condtions" style="padding-right: 10px">شهادة الحساب البنكي للمورد.pdf</label>
+                    <a href="#" class="condtions" style="padding-right: 10px">شهادة الحساب البنكي للمورد.pdf</a>
                 </div>
 
 
